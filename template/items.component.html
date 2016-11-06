@@ -1,0 +1,4 @@
+<ul>
+  <li ng-repeat="item in $ctrl.itemsList">{{item.name}}</li>
+</ul>
+<h4 class="text-center" ng-if="!$ctrl.itemsList.length">Nothing was found</h4>
